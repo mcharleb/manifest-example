@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- This is how you include another manifest -->
+  <include name="base.xml"/>
+
+  <!-- You can have as many additional remote repositories as you like -->
+  <remote fetch="git://github.com/bmwcarit" name="bmwcarit"/>
+
+  <project name="meta-ros" path="poky/meta-ros" remote="bmwcarit" revision="master"/>
+</manifest>

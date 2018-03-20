@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- This is how you include another manifest -->
+  <include name="default.xml"/>
+
+  <!-- You can have as many additional remote repositories as you like -->
+  <!-- yocto repo was declared in base.xml -->
+
+  <project name="meta-qcom" path="poky/meta-qcom" remote="yocto" revision="master"/>
+</manifest>
