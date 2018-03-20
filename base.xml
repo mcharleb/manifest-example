@@ -4,6 +4,6 @@
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
 
-  <project name="meta-openembedded" path="poky/meta-openembedded" remote="oe" revsion="jethro"/>
-  <project name="poky" remote="yocto" revision="jethro"/>
+  <project name="meta-openembedded" path="poky/meta-openembedded" remote="oe" revision="pyro"/>
+  <project name="poky" remote="yocto" revision="pyro"/>
 </manifest>
